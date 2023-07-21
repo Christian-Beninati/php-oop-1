@@ -36,3 +36,10 @@ class Movie
 // Creating Objects (Movie)
 $movie1 = new Movie("John Wick: Chapter 4", "Action", 2023);
 $movie2 = new Movie("Extraction 2", 'Action', 2023);
+
+// Print Object Properties (Movie)
+echo "Movie 1: ";
+var_dump($movie1);
+
+echo "Movie 2: ";
+var_dump($movie2);

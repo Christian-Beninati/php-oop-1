@@ -15,19 +15,19 @@ class Movie
     }
 
     // Method to get the title of the movie
-    public function getTitle()
+    public function get_title()
     {
         return $this->title;
     }
 
     // Method to get the genre of the movie
-    public function getGenre()
+    public function get_genre()
     {
         return $this->genre;
     }
 
     // Method to get the release year of the movie
-    public function getYear()
+    public function get_year()
     {
         return $this->year;
     }

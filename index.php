@@ -32,3 +32,7 @@ class Movie
         return $this->year;
     }
 }
+
+// Creating Objects (Movie)
+$movie1 = new Movie("John Wick: Chapter 4", "Action", 2023);
+$movie2 = new Movie("Extraction 2", 'Action', 2023);

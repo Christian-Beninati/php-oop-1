@@ -13,4 +13,22 @@ class Movie
         $this->genre = $genre;
         $this->year = $year;
     }
+
+    // Method to get the title of the movie
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    // Method to get the genre of the movie
+    public function getGenre()
+    {
+        return $this->genre;
+    }
+
+    // Method to get the release year of the movie
+    public function getYear()
+    {
+        return $this->year;
+    }
 }
